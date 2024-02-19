@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-3</title>
+    <style>
+        .box{
+            height: 60vh;
+            width: 60%;
+            background-color: black;
+        }
+        .one{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 25vh;
+            border-radius: 100%;
+            background-color: red;
+            animation-name: one1;
+            animation-duration: 5s;
+        }
+        .two{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 25vh;
+            border-radius: 100%;
+            background-color: blue;
+            animation-name: two2;
+            animation-duration: 5s;
+        }
+        .three{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 25vh;
+            border-radius: 100%;
+            background-color: purple;
+            animation-name: three3;
+            animation-duration: 5s;
+        }
+        .four{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 25vh;
+            background-color: skyblue;
+            animation-name: four4;
+            border-radius: 100%;
+            animation-duration: 5s;
+        }
+        .five{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 25vh;
+            background-color: white;
+            animation-name: five5;
+            border-radius: 100%;
+            animation-duration: 5s;
+        }
+        @keyframes one1{
+            0%{top: 25vh;left: 0%;}
+            33%{top: 25vh;left: 53%;}
+            66%{top:1vh;left: 23%;}
+            100%{top: 25vh;left: 0%;}
+        }
+        @keyframes two2{
+            0%{top: 25vh;left: 0%;}
+            33%{top: 25vh;left: 53%;}
+            66%{top: 25vh;left: 23%;}
+            100%{top: 25vh;left: 0%;}
+        }
+        @keyframes three3{
+            0%{top: 25vh;left: 0%;}
+            33%{top: 25vh;left: 53%;}
+            66%{top: 47vh;left: 23%;}
+            100%{top: 25vh;left: 0%;}
+        }
+        @keyframes four4{
+            0%{top: 25vh; left: 0%;}
+            33%{top: 13vh; left: 53%;}
+            66%{top: 13vh; left: 23%;}
+            100%{top: 25vh; left: 0%;}
+        }
+        @keyframes five5{
+            0%{top: 25vh; left: 0%;}
+            33%{top: 13vh; left: 53%;}
+            66%{top: 13vh; left: 23%;}
+            100%{top: 25vh; left: 0%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+    </div>
+</body>
+</html>

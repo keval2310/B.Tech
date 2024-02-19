@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css page-2 </title>
+    <style>
+        body
+        {
+            height: 90vh;
+            width: 100%;
+        }
+        .div1{
+            background-color: aqua;
+            height: 100%;
+            width:100%;
+        }
+        .con{
+            background-color: orange;
+            height: 80%;
+            width: 96%;
+            margin-left: 15px;
+        }
+        .Head{
+            background-color: purple;
+            height:5%;
+            width: 96%;
+            margin-left: 15px;
+            color: antiquewhite;
+        }
+        .Foot{
+            background-color: blue;
+            color: aliceblue;
+            height:5%;
+            width: 96%;
+            margin-left: 15px;
+        }
+        .entry{
+            background-color: black;
+            color: azure;
+            height:20%;
+            margin-bottom: 4%;
+            width: 100%;
+        }
+        .e1{
+            height: 48%;
+            margin: 1.5%;
+            width: 30%;
+        }
+        .sidebar{
+            color: azure;
+            background-color: black;
+            float: right;
+            margin-right: 1.5%;
+            height: 40%;
+            width: 40%  ;
+        }
+        .e1{
+            float: left;
+        }
+        @media (max-width: 800px) and (min-width: 400px) {
+            .entry{
+                width: 100%;
+                margin-left: 0px;
+            }
+            .e1{
+                width: 100%;
+            }
+            .sidebar{
+                width: 80%;
+                margin-top: 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div>Page</div>
+        <div class="Head"> 
+            <header>Header</header></div>
+        <div class="con">
+            <div>Content</div>
+             <div class="e1">
+             <div class="entry"> Entry</div>
+             <div class="entry"> Entry</div>
+             <div class="entry"> Entry</div>
+             </div>
+             <div class=" sidebar">Sidebar</div>
+        </div>
+        <div class="Foot"><Footer> Darshan University - Rajkot</Footer></div>
+    </div>
+</body>
+</html>

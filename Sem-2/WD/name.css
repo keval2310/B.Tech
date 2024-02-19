@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#box {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#header{
+    background-color: maroon;
+    margin-left: 10px;
+    color: white    ;
+}
+#op{
+    margin-left: 15px;
+    background-color: orange;
+
+}
+#content{
+    background-color: orange;
+    height: max-content;
+    float: left;
+    width: 100%;
+}
+
+
+#some{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+#side{
+    background-color: black;
+    color: white;
+    width: 20%;
+    float: right;
+    height: max-content;
+}
+#dar{
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+#leftside{
+    width: 60%;
+  float: left;
+}

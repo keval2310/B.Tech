@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    float: right;
+}
+#side{
+    float: left;
+    margin-left: 15px;
+}
